@@ -2,7 +2,7 @@ import TechCard from "./TechCard";
 
 const Tech = () => {
   return (
-    <div role="tablist" className="tabs tabs-lifted">
+    <div role="tablist" className="tabs tabs-lifted m-8">
       <input
         type="radio"
         name="my_tabs_2"
@@ -14,7 +14,7 @@ const Tech = () => {
         role="tabpanel"
         className="tab-content bg-base-100 border-base-300 rounded-box p-6"
       >
-        <div className="flex space-x-4">
+        <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
             logo="./images/html.png"
@@ -60,7 +60,7 @@ const Tech = () => {
         role="tabpanel"
         className="tab-content bg-base-100 border-base-300 rounded-box p-6"
       >
-        <div className="flex space-x-4">
+        <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
             logo="./images/php.png"
@@ -96,7 +96,7 @@ const Tech = () => {
         role="tabpanel"
         className="tab-content bg-base-100 border-base-300 rounded-box p-6"
       >
-        <div className="flex space-x-4">
+        <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
             logo="./images/java.png"

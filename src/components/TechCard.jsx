@@ -1,8 +1,8 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const TechCard = ({ title, percentage, logo }) => {
   return (
-    <span className="flex flex-col rounded-lg bg-darkcyan items-center p-4 mr-0 m-4 w-32 h-44">
+    <span className="flex flex-col rounded-lg items-center p-4 mr-0 m-4 w-32 h-44">
       <img src={logo} alt={logo} width={100} className="my-auto" />
       <p className="text-xl">{title}</p>
       <progress
@@ -12,6 +12,11 @@ const TechCard = ({ title, percentage, logo }) => {
       ></progress>
     </span>
   );
+};
+TechCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
+  logo: PropTypes.string.isRequired,
 };
 
 export default TechCard;
