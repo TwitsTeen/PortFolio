@@ -76,7 +76,11 @@ const Tech = () => {
             logo="./images/nodejs.png"
             title="Node.js"
           ></TechCard>
-          <TechCard percentage={70} logo="./images/flask.png"></TechCard>
+          <TechCard
+            percentage={70}
+            logo="./images/flask.png"
+            title="Flask"
+          ></TechCard>
           <TechCard
             percentage={70}
             logo="./images/psql.png"

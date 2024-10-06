@@ -9,9 +9,7 @@ const ThemeSwitcher = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme((prevTheme) =>
-      prevTheme === "corporate" ? "forest" : "corporate"
-    );
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
   return (
