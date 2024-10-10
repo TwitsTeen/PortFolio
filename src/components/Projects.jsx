@@ -15,6 +15,11 @@ const Projects = () => {
           image="/PorteFolio/images/flask.png"
         />
         <ProjectCard
+          title="Flask Amazon price history"
+          description="Réalisation d'un scrapper de prix Amazon avec un affichage graphique des prix en utilisant Flask"
+          image="/PorteFolio/images/flask.png"
+        />
+        <ProjectCard
           title="Clone de R/Place"
           description="Un canva commun sur lequel chaque utilisateur peut poser un pixel par minute utilisant React en frontend et Node.js en backend"
           image="/PorteFolio/images/nodejs.png"
@@ -42,6 +47,11 @@ const Projects = () => {
         <ProjectCard
           title="Pokeguessr"
           description="Un site donnant des indices progressif pour deviner un pokémon"
+          image="/PorteFolio/images/react.png"
+        />
+        <ProjectCard
+          title="Site Portfolio"
+          description="Réalisation de ce site portfolio avec React, tailwindcss et DaisyUI"
           image="/PorteFolio/images/react.png"
         />
       </div>
