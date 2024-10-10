@@ -17,32 +17,32 @@ const Tech = () => {
         <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
-            logo="./images/html.png"
+            logo="/PorteFolio/images/html.png"
             title="HTML"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/css.png"
+            logo="/PorteFolio/images/css.png"
             title="CSS"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/javascript.png"
+            logo="/PorteFolio/images/javascript.png"
             title="JavaScript"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/typescript.png"
+            logo="/PorteFolio/images/typescript.png"
             title="TypeScript"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="images/react.png"
+            logo="/PorteFolio/images/react.png"
             title="React"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/tailwind.png"
+            logo="/PorteFolio/images/tailwind.png"
             title="TailwindCSS"
           ></TechCard>
         </div>
@@ -63,27 +63,27 @@ const Tech = () => {
         <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
-            logo="./images/php.png"
+            logo="/PorteFolio/images/php.png"
             title="PHP"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/laravel.png"
+            logo="/PorteFolio/images/laravel.png"
             title="Laravel"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/nodejs.png"
+            logo="/PorteFolio/images/nodejs.png"
             title="Node.js"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/flask.png"
+            logo="/PorteFolio/images/flask.png"
             title="Flask"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/psql.png"
+            logo="/PorteFolio/images/psql.png"
             title="PostgreSQL"
           ></TechCard>
         </div>
@@ -103,17 +103,17 @@ const Tech = () => {
         <div className="flex flex-wrap space-x-4">
           <TechCard
             percentage={70}
-            logo="./images/java.png"
+            logo="/PorteFolio/images/java.png"
             title="Java"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/csharp.png"
+            logo="/PorteFolio/images/csharp.png"
             title="C#"
           ></TechCard>
           <TechCard
             percentage={70}
-            logo="./images/python.png"
+            logo="/PorteFolio/images/python.png"
             title="Python"
           ></TechCard>
         </div>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState("corporate");
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     // Update the `data-theme` attribute whenever `theme` changes
