@@ -3,8 +3,8 @@ import TechCard from "./TechCard";
 const Tech = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold mb-8 text-center my-8">
-        Mes compétences{" "}
+      <h1 className="text-3xl font-bold mb-8 text-center my-8 ">
+        Mes compétences
       </h1>
       <div className="flex flex-wrap justify-center space-4">
         <TechCard logo="/PorteFolio/images/html.png" title="HTML"></TechCard>

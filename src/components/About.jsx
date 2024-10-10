@@ -6,7 +6,7 @@ const About = () => {
         <div>
           <ThemeSwitcher></ThemeSwitcher>
         </div>
-        <div className="flex flex-col gap-8 md:flex-row text-primary  text-center">
+        <div className="flex flex-col gap-8 md:flex-row text-primary text-center">
           <h1 className="text-5xl md:text-9xl font-bold text-center p-8 md:p-24">
             FIERQUIN <br /> Mattéo
           </h1>
