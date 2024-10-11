@@ -7,40 +7,37 @@ const Tech = () => {
         Mes compétences
       </h1>
       <div className="flex flex-wrap justify-center space-4">
-        <TechCard logo="/PorteFolio/images/html.png" title="HTML"></TechCard>
-        <TechCard logo="/PorteFolio/images/css.png" title="CSS"></TechCard>
+        <TechCard logo="/PortFolio/images/html.png" title="HTML"></TechCard>
+        <TechCard logo="/PortFolio/images/css.png" title="CSS"></TechCard>
         <TechCard
-          logo="/PorteFolio/images/javascript.png"
+          logo="/PortFolio/images/javascript.png"
           title="JavaScript"
         ></TechCard>
         <TechCard
-          logo="/PorteFolio/images/typescript.png"
+          logo="/PortFolio/images/typescript.png"
           title="TypeScript"
         ></TechCard>
-        <TechCard logo="/PorteFolio/images/php.png" title="PHP"></TechCard>
-        <TechCard logo="/PorteFolio/images/java.png" title="Java"></TechCard>
-        <TechCard logo="/PorteFolio/images/csharp.png" title="C#"></TechCard>
+        <TechCard logo="/PortFolio/images/php.png" title="PHP"></TechCard>
+        <TechCard logo="/PortFolio/images/java.png" title="Java"></TechCard>
+        <TechCard logo="/PortFolio/images/csharp.png" title="C#"></TechCard>
+        <TechCard logo="/PortFolio/images/python.png" title="Python"></TechCard>
         <TechCard
-          logo="/PorteFolio/images/python.png"
-          title="Python"
-        ></TechCard>
-        <TechCard
-          logo="/PorteFolio/images/laravel.png"
+          logo="/PortFolio/images/laravel.png"
           title="Laravel"
         ></TechCard>
         <TechCard
-          logo="/PorteFolio/images/nodejs.png"
+          logo="/PortFolio/images/nodejs.png"
           title="Node.js"
         ></TechCard>
-        <TechCard logo="/PorteFolio/images/flask.png" title="Flask"></TechCard>
+        <TechCard logo="/PortFolio/images/flask.png" title="Flask"></TechCard>
         <TechCard
-          logo="/PorteFolio/images/psql.png"
+          logo="/PortFolio/images/psql.png"
           title="PostgreSQL"
         ></TechCard>
 
-        <TechCard logo="/PorteFolio/images/react.png" title="React"></TechCard>
+        <TechCard logo="/PortFolio/images/react.png" title="React"></TechCard>
         <TechCard
-          logo="/PorteFolio/images/tailwind.png"
+          logo="/PortFolio/images/tailwind.png"
           title="TailwindCSS"
         ></TechCard>
       </div>

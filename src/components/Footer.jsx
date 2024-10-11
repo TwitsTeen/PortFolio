@@ -16,7 +16,7 @@ const Footer = () => {
           onClick={handleCopy}
           className="cursor-pointer relative flex items-center gap-4"
         >
-          <img src="/PorteFolio/images/mail.png" alt="mail" className="w-12" />
+          <img src="/PortFolio/images/mail.png" alt="mail" className="w-12" />
           <span className="text-xl font-bold">fierquin.matteo@gmail.com</span>
           {copied && (
             <span className="absolute top-0 left-0 mt-2 ml-2 p-1 bg-black text-white rounded">
@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="flex items-center gap-4">
           <img
-            src="/PorteFolio/images/github.png"
+            src="/PortFolio/images/github.png"
             alt="github logo"
             className="w-12"
           />
@@ -42,7 +42,7 @@ const Footer = () => {
 
         <div className="flex items-center gap-4">
           <img
-            src="/PorteFolio/images/linkedin.png"
+            src="/PortFolio/images/linkedin.png"
             alt="linkedin logo"
             className="w-12"
           />

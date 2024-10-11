@@ -7,52 +7,52 @@ const Projects = () => {
         <ProjectCard
           title="PyMeme"
           description="Un site de création de meme fait avec Flask"
-          image="/PorteFolio/images/flask.png"
+          image="/PortFolio/images/flask.png"
         />
         <ProjectCard
           title="Un solveur de Wordle"
           description="Un site web permettant de trouver les mots possibles pour le jeu Wordle en utilisant Flask et SQLite"
-          image="/PorteFolio/images/flask.png"
+          image="/PortFolio/images/flask.png"
         />
         <ProjectCard
           title="Flask Amazon price history"
           description="Réalisation d'un scrapper de prix Amazon avec un affichage graphique des prix en utilisant Flask"
-          image="/PorteFolio/images/flask.png"
+          image="/PortFolio/images/flask.png"
         />
         <ProjectCard
           title="Clone de R/Place"
           description="Un canva commun sur lequel chaque utilisateur peut poser un pixel par minute utilisant React en frontend et Node.js en backend"
-          image="/PorteFolio/images/nodejs.png"
+          image="/PortFolio/images/nodejs.png"
         />
         <ProjectCard
           title="Site de messagerie instantanée"
           description="Site de messagerie instantannée utilisant React et Node.js"
-          image="/PorteFolio/images/nodejs.png"
+          image="/PortFolio/images/nodejs.png"
         />
         <ProjectCard
           title="Site web static"
           description="Réalisation d'un site web static pour d'une entreprise de l'événementiel dans le cadre d'une formation"
-          image="/PorteFolio/images/html.png"
+          image="/PortFolio/images/html.png"
         />
         <ProjectCard
           title="Logiciel de gestion d'un cabinet médical"
           description="Réalisation d'un logiciel de gestion de cabinet médical avec JavaFX dans le cadre d'une formation"
-          image="/PorteFolio/images/java.png"
+          image="/PortFolio/images/java.png"
         />
         <ProjectCard
           title="Logiciel de dessin"
           description="Utilisation de react et des canva JavaScript pour réaliser un logiciel de dessin"
-          image="/PorteFolio/images/javascript.png"
+          image="/PortFolio/images/javascript.png"
         />
         <ProjectCard
           title="Pokeguessr"
           description="Un site donnant des indices progressif pour deviner un pokémon"
-          image="/PorteFolio/images/react.png"
+          image="/PortFolio/images/react.png"
         />
         <ProjectCard
           title="Site Portfolio"
           description="Réalisation de ce site portfolio avec React, tailwindcss et DaisyUI"
-          image="/PorteFolio/images/react.png"
+          image="/PortFolio/images/react.png"
         />
       </div>
     </>
