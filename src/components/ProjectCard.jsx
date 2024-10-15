@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const ProjectCard = ({ title, description, image }) => {
   return (
-    <div className="card card-side bg-base-100 shadow-xl">
+    <div className="card card-side bg-base-100 shadow-xl transform transition-transform duration-300 hover:scale-110">
       <figure className="w-1/3 flex-shrink-0">
         <img src={image} alt={image} className="object-cover" />
       </figure>
