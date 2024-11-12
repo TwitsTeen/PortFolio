@@ -37,6 +37,10 @@ const Tech = () => {
 
         <TechCard logo="/PortFolio/images/react.png" title="React"></TechCard>
         <TechCard
+          logo="/PortFolio/images/reactnative.png"
+          title="React Native"
+        ></TechCard>
+        <TechCard
           logo="/PortFolio/images/tailwind.png"
           title="TailwindCSS"
         ></TechCard>

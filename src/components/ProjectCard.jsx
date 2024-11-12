@@ -6,7 +6,7 @@ const ProjectCard = ({ title, description, image }) => {
       <figure className="w-1/3 flex-shrink-0">
         <img src={image} alt={image} className="object-cover" />
       </figure>
-      <div className="card-body">
+      <div className="card-body my-auto">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
       </div>

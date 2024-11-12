@@ -5,6 +5,16 @@ const Projects = () => {
       <h1 className="text-3xl font-bold mb-8 text-center my-8">Mes Projets</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 m-8">
         <ProjectCard
+          title="RandomChords"
+          image="/PortFolio/images/reactnative.png"
+          description="Un site web pour générer des accords aléatoires pour la guitare selon une gamme donnée"
+        />
+        <ProjectCard
+          title="Juge automatique de programmation"
+          description="Programme java qui compile et éxecute automatiquement un code donné, puis compare les résultats pour évaluer la précision des solutions proposées."
+          image="/PortFolio/images/java.png"
+        ></ProjectCard>
+        <ProjectCard
           title="PyMeme"
           description="Un site de création de meme fait avec Flask"
           image="/PortFolio/images/flask.png"

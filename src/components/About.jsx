@@ -19,7 +19,7 @@ const About = () => {
               <code>HTML, CSS, JavaScript, React</code>
             </pre>
             <pre data-prefix="3" className="text-justify">
-              <code>Node.js, Express, Flask</code>
+              <code>Node.js, Laravel, Flask</code>
             </pre>
           </div>
         </div>
