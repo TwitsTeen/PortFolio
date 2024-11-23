@@ -5,9 +5,14 @@ const Projects = () => {
       <h1 className="text-3xl font-bold mb-8 text-center my-8">Mes Projets</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 m-8">
         <ProjectCard
+          title="Symfony image hosting website"
+          image="/PortFolio/images/symfony.png"
+          description="Un site web de partage d'images réalisé avec Symfony avec un système de login"
+        />
+        <ProjectCard
           title="RandomChords"
           image="/PortFolio/images/reactnative.png"
-          description="Un site web pour générer des accords aléatoires pour la guitare selon une gamme donnée"
+          description="Un site web / application android pour générer des accords aléatoires pour la guitare selon une gamme donnée"
         />
         <ProjectCard
           title="Juge automatique de programmation"

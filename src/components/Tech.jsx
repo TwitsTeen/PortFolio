@@ -22,6 +22,10 @@ const Tech = () => {
         <TechCard logo="/PortFolio/images/csharp.png" title="C#"></TechCard>
         <TechCard logo="/PortFolio/images/python.png" title="Python"></TechCard>
         <TechCard
+          logo="/PortFolio/images/symfony.png"
+          title="Symfony"
+        ></TechCard>
+        <TechCard
           logo="/PortFolio/images/laravel.png"
           title="Laravel"
         ></TechCard>
