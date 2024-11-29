@@ -59,6 +59,38 @@ const Footer = () => {
       <div className="mt-8 text-center">
         Copyright © 2024 - 2025 | Tous droits réservés
       </div>
+      <div className="flex">
+        <img
+          src="/PortFolio/images/cv_icon.png"
+          alt="file icon"
+          className="w-12"
+        />
+        <details className="dropdown bg-neutral">
+          <summary className="btn m-1 bg-neutral text-neutral-content hover:text-accent-content">
+            Télécharger mon CV
+          </summary>
+          <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <li>
+              <a
+                href="/PortFolio/files/CV Fierquin Mattéo Fr.pdf"
+                target="_blank"
+                className="text-xl font-bold text-primary"
+              >
+                Français
+              </a>
+            </li>
+            <li>
+              <a
+                href="/PortFolio/files/CV Fierquin Mattéo En.pdf"
+                target="_blank"
+                className="text-xl font-bold text-primary"
+              >
+                Anglais
+              </a>
+            </li>
+          </ul>
+        </details>
+      </div>
     </footer>
   );
 };
