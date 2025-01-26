@@ -2,6 +2,22 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    title: "Site de prise de notes markdown",
+    image: "/PortFolio/images/spring.png",
+    description:
+      "Un site web de prise de notes markdown utilisant vueJS en front et Spring en back",
+  },
+  {
+    title: "Bomberman",
+    image: "/PortFolio/images/java.png",
+    description: "Un jeu bomberman réalisé en JavaFX",
+  },
+  {
+    title: "Site de recettes",
+    image: "/PortFolio/images/laravel.png",
+    description: "Site de recettes réalisé avec Laravel",
+  },
+  {
     title: "Site de voyage",
     image: "/PortFolio/images/laravel.png",
     description: "Un site web de partage de voyage réalisé avec Laravel",

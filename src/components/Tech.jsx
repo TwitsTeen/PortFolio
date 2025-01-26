@@ -12,6 +12,8 @@ const techData = [
   { logo: "/PortFolio/images/symfony.png", title: "Symfony" },
   { logo: "/PortFolio/images/laravel.png", title: "Laravel" },
   { logo: "/PortFolio/images/nodejs.png", title: "Node.js" },
+  { logo: "/PortFolio/images/express.png", title: "Express" },
+  { logo: "/PortFolio/images/spring.png", title: "Spring" },
   { logo: "/PortFolio/images/flask.png", title: "Flask" },
   { logo: "/PortFolio/images/psql.png", title: "PostgreSQL" },
   { logo: "/PortFolio/images/react.png", title: "React" },
