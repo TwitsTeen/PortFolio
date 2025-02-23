@@ -13,7 +13,7 @@ const About = () => {
 
           <div className="mockup-code m-auto h-auto md:h-56 w-full md:w-1/3 p-4">
             <pre data-prefix="1" className="text-justify">
-              <code>Developpeur web fullstack</code>
+              <code>Développeur web fullstack</code>
             </pre>
             <pre data-prefix="2" className="text-justify">
               <code>HTML, CSS, JavaScript, React</code>

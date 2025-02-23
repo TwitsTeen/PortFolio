@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    title: "Réseau social",
+    image: "/PortFolio/images/flutter.png",
+    description:
+      "Un réseau social crossplatforme fait avec Flutter et Supabase",
+  },
+  {
     title: "Site de prise de notes markdown",
     image: "/PortFolio/images/spring.png",
     description:
@@ -110,6 +116,20 @@ const projectData = [
       "Réalisation de ce site portfolio avec React, tailwindcss et DaisyUI",
   },
 ];
+
+function sortProjectsByTechnology(projects) {
+  const sortedProjects = {};
+
+  projects.forEach((project) => {
+    const tech = project.image.split("/").pop().split(".")[0];
+    if (!sortedProjects[tech]) {
+      sortedProjects[tech] = [];
+    }
+    sortedProjects[tech].push(project);
+  });
+
+  return sortedProjects;
+}
 
 const Projects = () => {
   return (

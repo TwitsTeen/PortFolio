@@ -20,6 +20,7 @@ const techData = [
   { logo: "/PortFolio/images/reactnative.png", title: "React Native" },
   { logo: "/PortFolio/images/vuejs.png", title: "Vue.js" },
   { logo: "/PortFolio/images/tailwind.png", title: "TailwindCSS" },
+  { logo: "/PortFolio/images/flutter.png", title: "Flutter" },
 ];
 
 const Tech = () => {
