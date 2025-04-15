@@ -112,20 +112,6 @@ const projectData = [
   },
 ];
 
-function sortProjectsByTechnology(projects) {
-  const sortedProjects = {};
-
-  projects.forEach((project) => {
-    const tech = project.image.split("/").pop().split(".")[0];
-    if (!sortedProjects[tech]) {
-      sortedProjects[tech] = [];
-    }
-    sortedProjects[tech].push(project);
-  });
-
-  return sortedProjects;
-}
-
 const Projects = () => {
   return (
     <>
