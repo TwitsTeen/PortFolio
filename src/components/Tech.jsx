@@ -18,6 +18,7 @@ const techData = [
   { logo: "/PortFolio/images/psql.png", title: "PostgreSQL" },
   { logo: "/PortFolio/images/react.png", title: "React" },
   { logo: "/PortFolio/images/reactnative.png", title: "React Native" },
+  { logo: "/PortFolio/images/angular.png", title: "Angular" },
   { logo: "/PortFolio/images/vuejs.png", title: "Vue.js" },
   { logo: "/PortFolio/images/tailwind.png", title: "TailwindCSS" },
   { logo: "/PortFolio/images/flutter.png", title: "Flutter" },

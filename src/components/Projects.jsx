@@ -4,121 +4,140 @@ const projectData = [
   {
     title: "VideoTube",
     image: "/PortFolio/images/storyset/Video tutorial.png",
-    description:
-      "Une application crossplatforme de streaming vidéo utilisant React Native et Laravel",
+    description: "Application de streaming vidéo multiplateforme",
+    tags: ["React Native", "Laravel"],
   },
   {
     title: "Trio",
     image: "/PortFolio/images/storyset/Card game-bro.png",
-    description: "Clone du jeu de carte trio",
+    description: "Reproduction du jeu de cartes Trio en ligne",
+    tags: ["React", "Node.js", "Express"],
   },
   {
     title: "Site de gestion de finances",
     image: "/PortFolio/images/storyset/Finance app-bro.png",
-    description: "Un site de gestion de finances ",
+    description: "Application web pour la gestion des finances personnelles",
+    tags: ["Angular", "Laravel"],
   },
   {
     title: "Réseau social",
     image: "/PortFolio/images/storyset/Social media-amico.png",
     description:
-      "Un réseau social crossplatforme fait avec Flutter et Supabase",
+      "Plateforme sociale développée avec Flutter et Supabase, compatible multiplateforme",
+    tags: ["Flutter", "Supabase"],
   },
   {
-    title: "Site de prise de notes markdown",
+    title: "Application de prise de notes Markdown",
     image: "/PortFolio/images/storyset/Notes-bro.png",
     description:
-      "Un site web de prise de notes markdown utilisant vueJS en front et Spring en back",
+      "Outil de prise de notes avec support Markdown, basé sur Vue.js et Spring",
+    tags: ["Vue.js", "Spring"],
   },
   {
     title: "Bomberman",
     image: "/PortFolio/images/storyset/Gaming-pana.png",
-    description: "Un jeu bomberman réalisé en JavaFX",
+    description: "Version JavaFX du célèbre jeu Bomberman",
+    tags: ["JavaFX"],
   },
   {
     title: "Site de recettes",
     image: "/PortFolio/images/storyset/Chef-bro.png",
-    description: "Site de recettes réalisé avec Laravel",
+    description: "Plateforme de partage de recettes développée avec Laravel",
+    tags: ["Laravel", "Blade"],
   },
   {
     title: "Site de voyage",
     image: "/PortFolio/images/storyset/Traveling-bro.png",
-    description: "Un site web de partage de voyage réalisé avec Laravel",
+    description: "Application web de journal et partage de voyages",
+    tags: ["Laravel", "Blade"],
   },
   {
     title: "Vue Flash Cards",
     image: "/PortFolio/images/storyset/Learning languages-cuate.png",
-    description: "Un site web de flash cards réalisé avec Vue.js",
+    description: "Application d’apprentissage via des flash cards en Vue.js",
+    tags: ["Vue.js"],
   },
   {
-    title: "Laravel CRUD generator",
+    title: "Laravel CRUD Generator",
     image: "/PortFolio/images/storyset/Coding-amico.png",
     description:
-      "Un outil de génération de système CRUD pour Laravel fait avec NodeJS",
+      "Générateur d’interfaces CRUD pour Laravel, construit avec Node.js",
+    tags: ["Node.js", "Laravel"],
   },
   {
-    title: "Symfony image hosting website",
+    title: "Hébergement d’images Symfony",
     image: "/PortFolio/images/storyset/Image upload-bro.png",
     description:
-      "Un site web de partage d'images réalisé avec Symfony avec un système de login",
+      "Site d’hébergement d’images avec système de connexion, développé en Symfony",
+    tags: ["Symfony", "Twig"],
   },
   {
     title: "RandomChords",
     image: "/PortFolio/images/storyset/Playing Music-bro.png",
     description:
-      "Un site web / application android pour générer des accords aléatoires pour la guitare selon une gamme donnée",
+      "Application web/mobile pour générer des accords de guitare aléatoires selon une gamme",
+    tags: ["React Native"],
   },
   {
     title: "Juge automatique de programmation",
     image: "/PortFolio/images/storyset/paralympic winners podium-pana.png",
     description:
-      "Programme java qui compile et éxecute automatiquement un code donné, puis compare les résultats pour évaluer la précision des solutions proposées.",
+      "Programme Java qui compile et exécute des codes, puis compare les sorties pour en évaluer l’exactitude",
+    tags: ["Java"],
   },
   {
     title: "PyMeme",
     image: "/PortFolio/images/storyset/Memory storage-amico.png",
-    description: "Un site de création de meme fait avec Flask",
+    description: "Générateur de memes développé avec Flask",
+    tags: ["Flask"],
   },
   {
-    title: "Un solveur de Wordle",
+    title: "Solveur de Wordle",
     image: "/PortFolio/images/storyset/Artificial intelligence-amico.png",
     description:
-      "Un site web permettant de trouver les mots possibles pour le jeu Wordle en utilisant Flask et SQLite",
+      "Application Flask permettant de deviner les mots possibles au jeu Wordle à partir des lettres connues",
+    tags: ["Flask", "SQLite"],
   },
   {
-    title: "Flask Amazon price history",
+    title: "Historique des prix Amazon",
     image: "/PortFolio/images/storyset/Business growth-rafiki.png",
     description:
-      "Réalisation d'un scrapper de prix Amazon avec un affichage graphique des prix en utilisant Flask",
+      "Scrapper de prix Amazon avec sauvegarde des variations, développé en Flask",
+    tags: ["Flask", "BeautifulSoup"],
   },
   {
     title: "Clone de R/Place",
     image: "/PortFolio/images/storyset/Design community-amico.png",
     description:
-      "Un canva commun sur lequel chaque utilisateur peut poser un pixel par minute utilisant React en frontend et Node.js en backend",
+      "Toile collaborative où chaque utilisateur peut placer un pixel par minute, avec React et Node.js",
+    tags: ["React", "Node.js"],
   },
   {
-    title: "Site de messagerie instantanée",
+    title: "Messagerie instantanée",
     image: "/PortFolio/images/storyset/Messages-bro.png",
-    description: "Site de messagerie instantannée utilisant React et Node.js",
+    description: "Application de chat en temps réel avec React et Node.js",
+    tags: ["React", "Node.js", "Express"],
   },
-
   {
     title: "Logiciel de dessin",
     image: "/PortFolio/images/storyset/Artist-rafiki.png",
     description:
-      "Utilisation de react et des canva JavaScript pour réaliser un logiciel de dessin",
+      "Outil de dessin interactif réalisé avec React et le canvas HTML",
+    tags: ["JavaScript"],
   },
   {
     title: "Pokeguessr",
     image: "/PortFolio/images/storyset/Mystery box-rafiki.png",
     description:
-      "Un site donnant des indices progressif pour deviner un pokémon",
+      "Jeu proposant des indices progressifs pour deviner un Pokémon",
+    tags: ["React"],
   },
   {
     title: "Site Portfolio",
     image: "/PortFolio/images/storyset/Portfolio-bro.png",
     description:
-      "Réalisation de ce site portfolio avec React, tailwindcss et DaisyUI",
+      "Développement de ce site portfolio avec React, TailwindCSS et DaisyUI",
+    tags: ["React"],
   },
 ];
 
@@ -133,6 +152,7 @@ const Projects = () => {
             title={project.title}
             image={project.image}
             description={project.description}
+            tags={project.tags}
           />
         ))}
       </div>
