@@ -8,6 +8,12 @@ const projectData = [
     tags: ["React Native", "Laravel"],
   },
   {
+    title: "Movie App",
+    image: "/PortFolio/images/storyset/Film rolls-bro.png",
+    description: "Application de streaming de films et séries",
+    tags: ["React Native"],
+  },
+  {
     title: "Trio",
     image: "/PortFolio/images/storyset/Card game-bro.png",
     description: "Reproduction du jeu de cartes Trio en ligne",
