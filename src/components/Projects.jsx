@@ -8,6 +8,16 @@ const projectData = [
       "Une application crossplatforme de streaming vidéo utilisant React Native et Laravel",
   },
   {
+    title: "Trio",
+    image: "/PortFolio/images/storyset/Card game-bro.png",
+    description: "Clone du jeu de carte trio",
+  },
+  {
+    title: "Site de gestion de finances",
+    image: "/PortFolio/images/storyset/Finance app-bro.png",
+    description: "Un site de gestion de finances ",
+  },
+  {
     title: "Réseau social",
     image: "/PortFolio/images/storyset/Social media-amico.png",
     description:
