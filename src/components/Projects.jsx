@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    title: "Client LLM Chat",
+    image: "/PortFolio/images/storyset/Chat bot-bro.png",
+    description: "Application de chat avec un modèle de langage",
+    tags: ["React Native", "IA"],
+  },
+  {
     title: "VideoTube",
     image: "/PortFolio/images/storyset/Video tutorial.png",
     description: "Application de streaming vidéo multiplateforme",
